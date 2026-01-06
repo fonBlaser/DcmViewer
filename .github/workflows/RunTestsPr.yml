@@ -11,7 +11,7 @@ on:
       - development
 
 jobs:
-  test:
+  RunTests:
     runs-on: windows-latest
 
     steps:
