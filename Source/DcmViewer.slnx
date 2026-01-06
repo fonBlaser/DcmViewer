@@ -1,0 +1,23 @@
+<Solution>
+  <Folder Name="/Deidentifier/">
+    <Project Path="Deidentifier/DcmViewer.DeidentifierService.Core/DcmViewer.DeidentifierService.Core.csproj" Id="97202f88-61ce-4d43-bd0c-81ee4bbcda2f" />
+    <Project Path="Deidentifier/DcmViewer.DeidentifierService/DcmViewer.DeidentifierService.csproj" Id="a751635b-8828-4531-a30f-53800c83f0b3" />
+  </Folder>
+  <Folder Name="/Extractor/">
+    <Project Path="Extractor/DcmViewer.ExtractorService.Core/DcmViewer.ExtractorService.Core.csproj" Id="51f8769f-70df-4ecf-a03f-a3462ead8c23" />
+    <Project Path="Extractor/DcmViewer.ExtractorService/DcmViewer.ExtractorService.csproj" Id="a2874ec3-bbd0-4c9f-ba33-b4b05690bade" />
+  </Folder>
+  <Folder Name="/Listener/">
+    <Project Path="Listener/DcmViewer.ListenerService.Core/DcmViewer.ListenerService.Core.csproj" Id="c557b2b5-210d-4fd0-a879-feae19be35d2" />
+    <Project Path="Listener/DcmViewer.ListenerService/DcmViewer.ListenerService.csproj" Id="d7c4ad0e-3609-42b2-96c9-43072deac129" />
+  </Folder>
+  <Folder Name="/Monitoring/">
+    <Project Path="Monitoring/DcmViewer.MonitoringService.Core/DcmViewer.MonitoringService.Core.csproj" Id="f29a4214-326f-4381-92fd-5b3b0822fa1c" />
+    <Project Path="Monitoring/DcmViewer.MonitoringService/DcmViewer.MonitoringService.csproj" Id="44fdd9d0-e41b-4bf5-92f4-b6c815e0a982" />
+  </Folder>
+  <Folder Name="/_Tests/">
+    <Project Path="Tests/DcmViewer.Tests.Integration/DcmViewer.Tests.Integration.csproj" Id="4b0a13ea-ae12-41ea-a4fa-eada2235a9e3" />
+    <Project Path="Tests/DcmViewer.Tests.Unit/DcmViewer.Tests.Unit.csproj" Id="cfa05401-3b19-4415-b66a-ef85903f6279" />
+  </Folder>
+  <Project Path="DcmViewer.Common/DcmViewer.Common.csproj" Id="67f32dd1-bbfd-4c70-8531-20e6f875eec8" />
+</Solution>
