@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DcmViewer.ListenerService\DcmViewer.ListenerService.csproj" />
+    <ProjectReference Include="..\DcmViewer.MonitoringService.Implementation\DcmViewer.MonitoringService.Implementation.csproj" />
   </ItemGroup>
 
 </Project>
