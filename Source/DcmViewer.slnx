@@ -24,4 +24,5 @@
     <Project Path="Tests/DcmViewer.Tests.Unit/DcmViewer.Tests.Unit.csproj" Id="cfa05401-3b19-4415-b66a-ef85903f6279" />
   </Folder>
   <Project Path="DcmViewer.Common/DcmViewer.Common.csproj" Id="67f32dd1-bbfd-4c70-8531-20e6f875eec8" />
+  <Project Path="DcmViewer.Data/DcmViewer.Data.csproj" Id="af5ef552-0dca-4e05-84a3-a0278c39af84" />
 </Solution>
