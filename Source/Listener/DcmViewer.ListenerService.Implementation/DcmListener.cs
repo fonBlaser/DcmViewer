@@ -60,6 +60,8 @@ internal class DcmListener : DcmServiceBase, IDcmListener, IDisposable
 
     public void Dispose()
     {
+        _receiver.EventOccurred -= HandleReceiverEvent;
+        _receiver.TransmissionCompleted -= HandleTransmissionCompleted;
         RequestShutdown().Wait();
     }
 }

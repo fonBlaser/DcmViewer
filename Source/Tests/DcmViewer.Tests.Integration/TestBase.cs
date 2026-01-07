@@ -19,7 +19,7 @@ public abstract class TestBase : IDisposable
             DcmFilesSubdir = "Dcm",
             PngFilesSubdir = "Png",
             DatabaseFileName = "db.sqlite",
-            TcpFileReceiverPort = 10004
+            TcpFileReceiverPort = 104
         };
     }
 
