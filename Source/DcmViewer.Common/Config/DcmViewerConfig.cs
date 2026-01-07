@@ -13,6 +13,7 @@ public record DcmViewerConfig
 
     public required string PngFilesSubdir { get; init; } = "Png";
 
-    public required string DatabaseFileName { get; init; } = "db.sqlite";
-    
+    public required string DatabaseFileName { get; init; } = "db.db";
+    public string FullDatabaseFilePath => Path.Combine(RootDataDirectory, DatabaseFileName);
+
 }

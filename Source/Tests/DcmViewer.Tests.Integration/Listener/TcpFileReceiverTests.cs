@@ -67,6 +67,8 @@ public class TcpFileReceiverTests : TestBase
         await Receiver.Stop();
     }
 
+    //ToDo: Add test for parallel file uploads
+
     public override void Dispose()
     {
         Receiver.Dispose();

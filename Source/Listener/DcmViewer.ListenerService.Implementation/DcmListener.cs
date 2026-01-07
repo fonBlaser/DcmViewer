@@ -5,7 +5,7 @@ using ProtoBuf.Grpc;
 
 namespace DcmViewer.ListenerService.Implementation;
 
-internal class DcmListener : DcmServiceBase, IDcmListener, IDisposable
+public class DcmListener : DcmServiceBase, IDcmListener, IDisposable
 {
     private readonly TcpFileReceiver _receiver;
     private readonly DcmDbContext _dbContext;
