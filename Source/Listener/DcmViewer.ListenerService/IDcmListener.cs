@@ -1,4 +1,5 @@
 ﻿using DcmViewer.Common.Services;
+using ProtoBuf.Grpc;
 using ProtoBuf.Grpc.Configuration;
 
 namespace DcmViewer.ListenerService;
@@ -7,4 +8,6 @@ namespace DcmViewer.ListenerService;
 [Service]
 public interface IDcmListener : IDcmService
 {
+    public IAsyncEnumerable<ListenerEvent> SubscribeToEvents(CallContext context = default);
+    public IAsyncEnumerable<TransmissionCompletedEvent> SubscribeToTransmissions(CallContext context = default);
 }

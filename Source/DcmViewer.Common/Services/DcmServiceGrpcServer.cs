@@ -27,7 +27,7 @@ public class DcmServiceGrpcServer<TService> : DcmServiceServer<TService>
     {
         try
         {
-            _serviceInstance.Disconnect();
+            _serviceInstance.RequestShutdown();
             _server.ShutdownAsync().Wait();
         }
         catch (Exception ex)

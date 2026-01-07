@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\DcmViewer.Data\DcmViewer.Data.csproj" />
     <ProjectReference Include="..\DcmViewer.ListenerService\DcmViewer.ListenerService.csproj" />
   </ItemGroup>
 

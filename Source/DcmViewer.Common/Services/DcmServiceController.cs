@@ -50,14 +50,12 @@ public class DcmServiceController<TService> : IDisposable where TService : class
 
     public async Task<TService> GetService(CancellationToken ct = default)
     {
-        return await Task.Run(async () =>
+        return await Task.Run(() =>
         {
             while (!ct.IsCancellationRequested)
             {
                 if (Service != null)
                     return Service;
-
-                await Task.Delay(100, ct);
             }
 
             throw new OperationCanceledException();

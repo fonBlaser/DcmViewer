@@ -7,5 +7,5 @@ namespace DcmViewer.Common.Services;
 public interface IDcmService
 {
     public Task Connect(CallContext context = default);
-    public Task Disconnect(CallContext context = default);
+    public Task RequestShutdown(CallContext context = default);
 }
